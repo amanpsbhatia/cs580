@@ -130,12 +130,12 @@
 \RequirePackage{fancyhdr}
 
 \pagestyle{fancy}
-\fancyhead[RO]{\theHWauthorsatheader}
-\fancyhead[CO]{\theHWcourse}
-\fancyhead[LO]{Homework \theHWno}
-\fancyfoot[RO]{}
-\fancyfoot[CO]{\thepage}
-\fancyfoot[LO]{}
+\fancyhead[R]{\theHWauthorsatheader}
+\fancyhead[C]{\theHWcourse}
+\fancyhead[L]{Homework \theHWno}
+\fancyfoot[R]{}
+\fancyfoot[C]{\thepage}
+\fancyfoot[L]{}
 %%
 %% ============================================================
 
