@@ -20,6 +20,7 @@
 %%
 %% CHANGELOG
 %%
+%% Made sure that each HWproblem starts on an odd-numbered page
 %% Added a new page between every new homework problem
 %%
 
