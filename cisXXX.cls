@@ -100,7 +100,6 @@
 %%
 
 \RequirePackage{titlesec}
-\RequirePackage{changepage}
 
 \newcounter{theHWproblem}
 \setcounter{theHWproblem}{1}
