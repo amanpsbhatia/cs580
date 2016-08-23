@@ -107,7 +107,7 @@
 
 \newcommand{\HWproblem}{%
   \ifnum\value{theHWproblem} > 1
-  	\newpage
+	\cleardoublepage
   \fi
   \subsection*{Problem \arabic{theHWproblem}}
   \addtocounter{theHWproblem}{1}
