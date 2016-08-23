@@ -1,8 +1,11 @@
 %%
-%% CISXXX.cls version 0.2
+%% CISXXX.cls version 0.3
 %% cisXXX  - Latex2e document class for typesetting homework solutions in
-%%           CIS-XXX at UPenn, Summer 2016.
-%% Copyright (C) 2016, Sanjeev Khanna and Jake Hart.
+%%           CS 580 at Purdue University, Fall 2016.
+%% Copyright (C) 2016, Derrick McKee.
+%%
+%% Adapted from the excellent template by Jake Hart and Sanjeev Khanna
+%% https://www.overleaf.com/latex/templates/upenn-cs-hw-template/vbwrvfqctqdx#.V7uWfZgrKUk
 %%
 %% LICENSE:
 %%
@@ -18,7 +21,6 @@
 %% CHANGELOG
 %%
 %% Added a new page between every new homework problem
-%% Fixed undefined reference to \theHWPartners if no partners exist.
 %%
 
 %% ============================================================
