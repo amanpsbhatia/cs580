@@ -17,6 +17,7 @@
 %%
 %% CHANGELOG
 %%
+%% Added a new page between every new homework problem
 %% Fixed undefined reference to \theHWPartners if no partners exist.
 %%
 
