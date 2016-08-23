@@ -20,7 +20,6 @@
 %%
 %% CHANGELOG
 %%
-%% Made sure that each HWproblem starts on an odd-numbered page
 %% Added a new page between every new homework problem
 %%
 
@@ -101,6 +100,7 @@
 %%
 
 \RequirePackage{titlesec}
+\RequirePackage{changepage}
 
 \newcounter{theHWproblem}
 \setcounter{theHWproblem}{1}
@@ -108,7 +108,12 @@
 
 \newcommand{\HWproblem}{%
   \ifnum\value{theHWproblem} > 1
-	\cleardoublepage
+  	\checkoddpage
+	\ifoddpage
+		\newpage\null\newpage
+	\else
+    		\cleardoublepage
+  	\fi  
   \fi
   \subsection*{Problem \arabic{theHWproblem}}
   \addtocounter{theHWproblem}{1}
